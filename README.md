@@ -1,4 +1,4 @@
-<p>Teste de Javascript da empresa Green Bay Solutions, presente  <a target='_blank' href=https://westpoint.airtec.ai/render/junior-frontend-developer-f-q5-i5>aqui</a>.</p> 
+<p>Teste de Javascript da empresa Green Bay Solutions, presente  <a target='_blank' href=https://westpoint.airtec.ai/render/junior-frontend-developer-f-q5-i5>aqui</a> e minha resolução <a target='_blank' href='https://luizacastelar.github.io/numerosPrimosJavascript'>aqui</a>.</p> 
 
 <p><b>Code challenge </b></p>
 
