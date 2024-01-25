@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> Números Primos</title>
+		<link rel='stylesheet' type="text/css" href='index.css'>
+
+		<meta charset='utf-8'>
+	</head>
+
+	<body>
+		<div class='container'>
+			<h3>Code challenge</h3>
+
+			<p><b>Goals:</b></p> 
+			<ul>
+			  <li>Finds all the prime numbers between 1 and 1000.</li>
+			  <li>Sums all the prime numbers that you found between 1 and 1000.</li>
+			  <li>The `main` function should return the sum of all prime numbers.</li>
+			</ul>
+			<p>Develop the solution entirely on this editor.</p>
+
+			<p>A prime number is a natural number greater than 1 that is only divisible by 1 and itself. 2, 3, 5, 7, 11, 13 etc are prime numbers. 
+			4 for example, is not a prime number since 4 is divisible by 2. 4 / 2 = 2.</p> 
+
+			<p>Bonus points for a more functional approach in your code. 
+			For example, try to use array functions such as map, filter or reduce.</p>
+
+			<br>
+
+			<h3>Minha resolução</h3>
+			
+			<div class="code">
+				<pre>
+					const main = () => {
+					    let array = [...Array(1001).keys()].slice(2)
+					    
+					    let prime = array.filter((index) => !isPrime(index))
+					    
+					    return prime.reduce(
+					        (accumulator, currentValue) => accumulator + currentValue,
+					      0)
+					}
+
+					function isPrime(params){
+					     for (let index = 2; index < params; index++){
+					        
+					        if (Number.isInteger(params/index)){
+					            return true;
+					        }
+					    }
+					    
+					    return false;
+					}
+
+					console.log(main());
+				</pre>
+			</div>
+
+		<div>
+	</body>
+
+</html>
