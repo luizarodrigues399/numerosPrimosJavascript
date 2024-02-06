@@ -22,7 +22,7 @@ body {
 }
 
 pre{
-	white-space: pre-wrap;
+	white-space: pre-line;
 	padding-left: 20px;
 }
 
