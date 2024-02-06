@@ -1,20 +1,18 @@
 body {
 	font-family: Arial;
 	background-color: rgb(90, 145, 246);
-    height: 100vh;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 
 .container{
 	background-color: white;
-	width: 80%;
+	display: inherit;
 	padding: 10px 20px;
 	border-radius: 25px;
+	flex-direction: column;
+	width: 70%;
 }
 
 .code{
@@ -27,3 +25,13 @@ pre{
 	white-space: pre-wrap;
 	padding-left: 20px;
 }
+
+h3:first-child{
+	text-align: center;
+}
+
+p, h3:not(:first-child){
+	padding-left: 10px;
+}
+
+
