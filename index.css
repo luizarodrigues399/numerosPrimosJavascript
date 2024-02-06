@@ -22,3 +22,8 @@ body {
 	background-color: #282923; 
 	color: white;
 }
+
+pre{
+	white-space: pre-wrap;
+	padding-left: 20px;
+}
