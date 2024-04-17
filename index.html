@@ -33,12 +33,12 @@
 			<div class="code">
 				<pre>
 					const main = () => {
-						//gerando o array de 2 a 1000
+					    //gerando o array de 2 a 1000
 					    let array = [...Array(1001).keys()].slice(2)
-
-						//outra forma de gerar esse array de 2 a 1000
-						const resultado = Array.from(Array(1001).keys())
-						const [ um, dois, ...rest] = resultado
+						
+					    //outra forma de gerar esse array de 2 a 1000
+					    const resultado = Array.from(Array(1001).keys())
+					    const [ um, dois, ...rest] = resultado
 					    
 					    let prime = array.filter((index) => !isPrime(index))
 					    
