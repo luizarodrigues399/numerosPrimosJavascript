@@ -22,8 +22,7 @@ body {
 }
 
 pre{
-	white-space: pre-line;
-	padding-left: 20px;
+	tab-size:1;
 }
 
 h3:first-child{
